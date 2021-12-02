@@ -1,0 +1,9 @@
+<div class="d-flex">
+    <div class="contenedor">
+      <app-listar [dato]="juegos"></app-listar>
+  </div>
+  <div class="contenedor">
+    <app-agregar (onNuevoJuego)="guardar( $event )"></app-agregar>
+  </div>
+  </div>
+  

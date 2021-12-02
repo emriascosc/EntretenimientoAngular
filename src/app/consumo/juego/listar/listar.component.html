@@ -1,0 +1,18 @@
+<h1>Lista de juegos</h1>
+      <table class="table">
+          <thead>
+            <tr>
+        
+              <th scope="col">ID</th>
+              <th scope="col">Nombre</th>
+           
+            </tr>
+          </thead>
+          <tbody *ngFor="let item of juegos">
+            <tr>
+              <td>{{item.id}}</td>
+              <td>{{item.nombre}}</td>
+            </tr>
+            
+          </tbody>
+        </table>
